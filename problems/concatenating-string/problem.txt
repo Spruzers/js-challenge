@@ -1,0 +1,33 @@
+##Appending Variables to Strings
+  Just as we can build a string over multiple lines out of string literals,
+  we can also append variables to a string using the plus equals (+=) operator.
+
+  // Example
+  var anAdjective = "awesome!";
+  var ourStr = "Spruzers is ";
+  ourStr += anAdjective;
+  // Spruzers is awesome.
+
+
+## The challenge:
+
+ Create a program that appends the argument passed to the string 'Learning to code is '
+ and returns the concatenated string.
+
+##Example:
+  - It should return 'Learning to code is crazy' if "crazy" is passed.
+  - It should return 'Learning to code is simple' if "simple" is passed.
+  - It should return 'Learning to code is awesome' if "awesome" is passed.
+  - It should return 'Learning to code is great' if "great" is passed.
+
+## Hint:
+  Here is some boilerplate code to get you started:
+    module.exports = function (someAdjective) {
+      var myStr = "Learning to code is ";
+      // Append someAdjective to myStr using the += operator.
+      // ...
+    }
+
+Check to see if your program is correct by running this command:
+
+Use `$ADVENTURE_COMMAND verify PROGRAM.js` to verify your program.

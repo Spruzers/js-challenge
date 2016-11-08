@@ -1,0 +1,23 @@
+## Reversing a string.
+  Using your knowledge on decrementing for-loop, string length and concatenation.
+  Create a program that reverses the argument passed to it and returns the reversed string.
+
+##Example:
+  - It should return 'olleH' if "Hello" is passed.
+  - It should return '!dlroW' if "World!" is passed.
+  - It should return 'dlroW olleH' if "Hello World" is passed.
+
+##Hint:
+ - string length property.
+ - decrementing for loop.
+ - String concatenation.
+
+Here is some boilerplate code to get you started:
+
+  module.exports = function (a) {
+    // ...
+  }
+
+Check to see if your program is correct by running this command:
+
+Use `$ADVENTURE_COMMAND verify PROGRAM.js` to verify your program.

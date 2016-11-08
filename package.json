@@ -1,0 +1,21 @@
+{
+  "name": "js-challenge",
+  "version": "0.1.0",
+  "description": "JS challenges for beginners built with nodeschool adventure workshopper",
+  "bin": {
+    "js-challenge": "runner.js"
+  },
+  "author": "Lawal Sauban",
+  "license": "MIT",
+  "keywords": [
+    "nodeschool",
+    "adventure",
+    "education",
+    "javascript",
+    "terminal"
+  ],
+  "dependencies": {
+    "adventure": "^2.2.0",
+    "adventure-verify": "^2.1.1"
+  }
+}

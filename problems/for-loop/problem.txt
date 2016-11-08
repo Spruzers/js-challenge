@@ -1,0 +1,48 @@
+## Decrement For Loop.
+
+For loops allow you to repeatedly run a block of code a certain number of times. This for loop logs to the console 20 times:
+
+for (var i = 20; i >= 1; i--) {
+  // log the numbers 20 down to 1
+  console.log(i);
+}
+
+The first part, `var i = 20`, is run once at the beginning of the loop. The variable `i` is used to track how many times the loop has run.
+
+The second part, `i >= 1`, is checked at the beginning of every loop iteration before running the code inside the loop.
+If the statement is true, the code inside the loop is executed.
+If it is false, then the loop is complete. The statement `i >= 1;` indicates that the loop will continue as long as `i` is greater than or equal to `1`.
+
+The final part, `i--`, is executed at the end of every loop. This decreases the variable `i` by 1 after each loop. Once `i` reaches `0`, the loop will exit.
+
+## The challenge:
+
+Create a javascript program file, with a function that accept one argument as a number.
+
+In that file define a variable named `total` and make it equal the number `1`.
+
+Create a for loop with a variable `i` starting at the number passed and decreasing by 1 each time through the loop.
+The loop should run as long as `i` is greater than or equal to 1.
+
+On each iteration of the loop, multiply the number `i` to the `total` variable. To do this, you can use this statement:
+
+total *= i;
+
+After the for loop, return the `total` variable in the program.
+
+Here is some boilerplate code to get you started:
+
+  module.exports = function (num) {
+    var total = 1;
+    // ...
+    return total;
+  }
+
+## Example:
+  - It should return 120, if 5 is passed as the argument.
+  - It should return 720, if 6 is passed as the argument.
+  - It should return 362880, if 9 is passed as the argument.
+
+Check to see if your program is correct by running this command:
+
+$ADVENTURE_COMMAND verify PROGRAM.js

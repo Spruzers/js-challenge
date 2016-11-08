@@ -1,0 +1,29 @@
+## The challenge:
+
+Using your knowledge on remainder operator and conditional block:
+Create a program that checks if the argument provided is:
+  - A number.
+  - Whether an even or odd number.
+
+If the argument is not a number, return message like 'Not a number';
+
+## Hint:
+  - typeof method.
+  - if..else conditional block.
+  - remainder operator.
+
+## Example:
+it should return 'Not a number' if a string like 'scale' is provided.
+it should return 'Not a number' if a boolean like true or false is provided.
+it should return 'Odd' if 3 is provided.
+it should return 'Even' if 6 is provided.
+
+Here is some boilerplate code to get you started:
+
+  module.exports = function (a) {
+    // ...
+  }
+
+Check to see if your program is correct by running this command:
+
+Use `$ADVENTURE_COMMAND verify PROGRAM.js` to verify your program.

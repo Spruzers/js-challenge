@@ -1,0 +1,8 @@
+Here is the reference solution, if you're curious:
+
+module.exports = function (someAdjective) {
+  var myStr = "Learning to code is ";
+  // Append someAdjective to myStr using the += operator.
+  myStr += someAdjective;
+  return myStr;
+}

@@ -1,0 +1,27 @@
+##Find the Length of a String
+  You can find the length of a String value by writing .length after the string variable or string literal.
+
+  "Alan Peter".length; // 10
+
+  For example,
+  if we created a variable var firstName = "Charles", we could find out how long the string "Charles" is by using the firstName.length property.
+
+## The challenge:
+
+Using the .length property to count the number of characters in a string:
+ Create a program that the returns the length of the argument passed to.
+
+##Example:
+  - It should return 5 if "Hello" is passed.
+  - It should return 6 if "World!" is passed.
+  - It should return 11 if "Hello World" is passed.
+
+Here is some boilerplate code to get you started:
+
+  module.exports = function (a) {
+    // ...
+  }
+
+Check to see if your program is correct by running this command:
+
+Use `$ADVENTURE_COMMAND verify PROGRAM.js` to verify your program.

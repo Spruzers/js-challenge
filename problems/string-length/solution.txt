@@ -1,0 +1,6 @@
+Here is the reference solution, if you're curious:
+
+  module.exports = function (str) {
+    if(!str) return 'Invalid parameter passed';
+    return str.length;
+}

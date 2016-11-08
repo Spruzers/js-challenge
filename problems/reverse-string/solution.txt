@@ -1,0 +1,9 @@
+Here is the reference solution, if you're curious:
+
+function reverse(str) {
+  var reverseStr = '';
+  for (var i = s.length - 1; i >= 0; i--){
+    reverseStr += s[i];
+  }
+  return reverseStr;
+}

@@ -1,0 +1,25 @@
+## The challenge:
+
+Using your knowledge on remainder operator, loop and conditional block:
+Create a program that true if the argument is a prime number.
+and returns false if the argument is not a prime number.
+
+
+## Hint:
+  - for loop.
+  - if..else conditional block.
+  - Modulus Operator.
+
+## Example:
+it should return true if 3 is passed to it.
+it should return false if 6 is provided.
+
+Here is some boilerplate code to get you started:
+
+  module.exports = function (a) {
+    // ...
+  }
+
+Check to see if your program is correct by running this command:
+
+Use `$ADVENTURE_COMMAND verify PROGRAM.js` to verify your program.

@@ -1,0 +1,11 @@
+Here is the reference solution, if you're curious:
+
+module.exports = function (num) {
+    var total = 1;
+
+    for (var i = num; i >= 1; i--) {
+      total = total * i;
+    };
+
+    return total;
+}
