@@ -1,4 +1,4 @@
-# example-adventure
+# JS-Challenge
 
 This package is an example that you can use to get started writing
 [nodeschool](http://nodeschool.io) challenges using
