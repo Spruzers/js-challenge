@@ -8,8 +8,11 @@ exports.solution = fs.createReadStream(__dirname + '/solution.txt');
 exports.verify = verify({ modeReset: true }, function (args, t) {
     var f = require(path.resolve(args[0]));
     t.equal(typeof f, 'function', 'you exported a function');
-    t.equal(f("Hello"), 5, 'It should return 5 for "Hello"');
-    t.equal(f("World!"), 6, 'It should return 6 for "World!"');
-    t.equal(f("Hello World!"), 12, 'It should return 12 for "Hello World!"');
+    t.equal(f("Hello!"), 6, 'Passed');
+    t.equal(f("AWorld!"), 7, 'Passed');
+    t.equal(f(), 'Invalid parameter passed', 'Passed');
+    t.equal(f({}), undefined, 'Passed');
+    t.equal(f([]), 0, 'Passed');
+    t.equal(f("Hello Wor!"), 10, 'Passed');
     t.end();
 });

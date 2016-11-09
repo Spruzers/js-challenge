@@ -8,8 +8,8 @@ exports.solution = fs.createReadStream(__dirname + '/solution.txt');
 exports.verify = verify({ modeReset: true }, function (args, t) {
     var f = require(path.resolve(args[0]));
     t.equal(typeof f, 'function', 'you exported a function');
-    t.equal(f('crazy'), 'Learning to code is crazy', 'It should return \'Learning to code is crazy\' if "crazy"');
-    t.equal(f('great'), 'Learning to code is great', 'It should return \'Learning to code is great\' if "great"');
-    t.equal(f('1'), 'Learning to code is 1', 'It should return \'Learning to code is 1\' if "1"');
+    t.equal(f('punk'), 'Learning to code is punk', 'It should return \'Learning to code is crazy\' if "crazy"');
+    t.equal(f('problem solving'), 'Learning to code is problem solving', 'It should return \'Learning to code is great\' if "great"');
+    t.equal(f(), 'Invalid parameters', 'Tested');
     t.end();
 });

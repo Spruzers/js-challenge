@@ -8,8 +8,8 @@ exports.solution = fs.createReadStream(__dirname + '/solution.txt');
 exports.verify = verify({ modeReset: true }, function (args, t) {
     var f = require(path.resolve(args[0]));
     t.equal(typeof f, 'function', 'you exported a function');
-    t.equal(f("Hello"), 'olleH', 'It should return "olleH" for "Hello"');
-    t.equal(f("World!"), '!dlroW', 'It should return "!dlroW" for "World!"');
-    t.equal(f("Hello World!"), '!dlroW olleH', 'It should return "!dlroW olleH" for "Hello World!"');
+    t.equal(f("Hellol"), 'lolleH', 'It should return "olleH" for "Hello"');
+    t.equal(f("Wrldo!"), '!odlrW', 'It should return "!dlroW" for "World!"');
+    t.equal(f("Hello oWrldo!"), '!odlrWo olleH', 'It should return "!dlroW olleH" for "Hello World!"');
     t.end();
 });

@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 
 var adventure = require('adventure');
-var shop = adventure('js-quiz');
+var shop = adventure('js-challenge');
 
 var problems = [ 'remainder', 'even-odd-NaN', 'for-loop', 'prime-number', 'concatenating-string', 'string-length', 'reverse-string' ];
 problems.forEach(function (prob) {
