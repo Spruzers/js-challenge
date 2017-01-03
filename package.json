@@ -1,9 +1,12 @@
 {
   "name": "js-challenge",
   "version": "0.2.0",
-  "description": "JS challenges for beginners built with nodeschool adventure workshopper",
+  "description": "JS challenges for beginners",
   "bin": {
     "js-challenge": "runner.js"
+  },
+  "repository": {
+    "url": "https://github.com/sprucers/js-challenge.git"
   },
   "author": "Lawal Sauban",
   "license": "MIT",
